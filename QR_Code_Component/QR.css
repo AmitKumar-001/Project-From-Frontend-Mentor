@@ -1,0 +1,38 @@
+body {
+    background-color: darkgray;
+}
+
+#qr {
+    background-color: white;
+    border-radius: 20px;
+    width: 375px;
+    padding: 2.5%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+/* For desktop */
+/* @media only screen and (min-width: 768px) {
+    #qr {
+        width: 1440px;
+        font-weight: 700;
+        font-size: 70px;
+    }
+} */

@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(26, 26, 31);
+    color: rgb(189, 181, 181);
+}
+#whole{
+    background-color: rgb(44, 44, 56);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5%;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: auto;
+    /* display: none; */
+}
+#num{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 25px;
+}
+button{
+    background-color: rgb(26, 26, 29);
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+}
+#rating:hover{
+    background-color: rgb(91, 240, 240);
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+input{
+    background-color: rgb(131, 100, 75);
+    color: white;
+    font-size: 25px;
+    border-radius: 25px;
+    border-style: none;
+    width: 100%;
+}
+#thanks{
+    background-color: rgb(44, 44, 56);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5%;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: auto;
+    display: none;
+}
+#thankImg{
+    display: flex;
+    justify-content: center;
+}
+#rates{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding:2%;
+    margin-left:20%;
+    margin-right: 20%;
+    background-color:rgb(74, 74, 85);
+    border-radius: 50px;
+    color: rgb(226, 115, 24);
+}
+.message2{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+}
