@@ -1,8 +1,9 @@
 body{
     color: rgb(189, 181, 181);
+    background-color: black;
 }
 #whole{
-    background-color: rgb(44, 44, 56);
+    background-color: rgb(39, 39, 61);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -27,7 +28,7 @@ button{
     border-radius: 50%;
     border-style: none;
 }
-#rating:hover{
+.rating:hover{
     background-color: rgb(91, 240, 240);
 }
 .submitBtn{
@@ -73,5 +74,8 @@ input{
 display: flex;
 flex-direction: column;
 text-align: center;
-
+}
+#select{
+    padding-left: 5px;
+    padding-right: 5px;
 }

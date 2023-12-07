@@ -1,7 +1,7 @@
 
 let clickStatus = false;
 let clickOn;
-let rateBtn = document.querySelectorAll("#rating");
+let rateBtn = document.querySelectorAll(".rating");
 
 //function for mouse over
 function over(i){
