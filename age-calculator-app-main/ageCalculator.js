@@ -68,7 +68,7 @@ function start(){
         console.log("day between 1 - 31");
         if(monthIn > 0 && monthIn < 13){
             console.log("Month between 1 - 12");
-            if(yearIn > 1947 && yearIn <= currentYear){
+            if(yearIn > 1000 && yearIn <= currentYear){
                 console.log("Year is also valid");
                 console.log("Enter date is: "+dayIn+" / "+monthIn+" / "+yearIn);
                 //validate date
