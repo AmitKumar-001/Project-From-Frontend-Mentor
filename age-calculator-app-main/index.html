@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="ageCalculator.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Poppins:ital,wght@1,600;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main id="mainBox">
+    <div id="bottomBorder">
+      <div id="inputPart">
+        <div class="inputmessage">DAY</div>
+        <div class="inputmessage">MONTH</div>
+        <div class="inputmessage">YEAR</div>
+        <input type="text" id="day" placeholder="DD" 
+        minlength="1" maxlength="2" size="2" required>
+
+        <input type="text" id="month" placeholder="MM" 
+        minlength="1" maxlength="2" size="2" required>
+      
+        <input type="text" id="year" placeholder="YYYY" 
+        minlength="4" maxlength="4" size="4" required>
+
+        <div id="errD">This field required</div>
+        <div id="errM">This field required</div>
+        <div id="errY">This field required</div>
+     </div>
+      <div id="iconContainer">
+        <button id="submit" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+        </button>
+      </div>
+    </div>
+    <div id="outputPart">
+      <div id="yearsOut"> <span id=resultY>--</span> years</div>
+      <div id="monthsOut"> <span id=resultM>--</span> months</div>
+      <div id="daysOut"> <span id=resultD>--</span> days</div>
+    </div>
+  </main>
+</body>
+<script src="ageCalculator.js"></script>
+</html>
