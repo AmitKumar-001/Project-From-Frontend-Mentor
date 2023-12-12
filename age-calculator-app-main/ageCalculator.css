@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(219, 216, 216);    
+    /* background-color: rgb(219, 216, 216);     */
+    background-color: #F0F0F0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 #mainBox{
     background-color: white;
@@ -14,7 +19,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     font-size: 10px;
-    margin-right: 25%;
+    /* margin-right: 25%; */
     /* margin-bottom: 25px; */
 }
 input{

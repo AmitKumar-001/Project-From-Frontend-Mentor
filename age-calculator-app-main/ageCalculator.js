@@ -6,6 +6,8 @@
 // let currentMonth = dateObj.getMonth()+1;
 // let toDay = dateObj.getDate();
 
+//The declaration of these above variable not accessing the element from user in HTML
+
 // console.log("Enter as day: "+dayIn);
 // console.log("Enter as month: "+monthIn);
 // console.log("Enter as year: "+yearIn);
@@ -186,6 +188,7 @@ function start(){
         inBox[1].style.borderColor = "hsl(0, 100%, 67%)";
         inBox[2].style.borderColor = "hsl(0, 100%, 67%)";
     }
+    
     //calculation start here
     function calculate(){
         console.log("Enter as day: "+dayIn);
@@ -195,6 +198,9 @@ function start(){
         console.log("Current Year: "+currentYear);
         console.log("Current Month: "+currentMonth);
         console.log("Current Day: "+toDay);
+        errMD.style.visibility = "hidden";
+        errMM.style.visibility = "hidden";
+        errMY.style.visibility = "hidden";
 
         let resDay;
         let resMonth;
@@ -231,3 +237,18 @@ function start(){
     }
 }
 
+/*
+Need to improvement:
+
+1) the input cell should go automatic in next input Box.
+For example: once user enter two digits of a date no need to press tab button of click on Month box to enter
+month, it should be automatic. Once use enter two digit in date box the next input so go in as month automatic
+
+2) the variable declare outside of the addEventListener is not acessing the input
+
+3) if use enter wrong date or future date, they getting error in red color but once they enter correct date or past date-
+the red color should be disapper before calling the function
+
+4)once use enter the complete date it should be calculate automatic no need to tap on the arrow button (submit button) to
+call/exceute the function
+*/
