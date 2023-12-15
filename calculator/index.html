@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="calculator.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;700&family=Outfit:wght@200&family=Poppins:ital,wght@1,600;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="Wrapper">
+    <div id="top">
+      <h1>calc</h1>
+      <div id="theme">
+        <H2>THEME</H2>
+        <div id="navignation">
+          <div id ="tNum">
+            <label for="t1">1</label>
+            <label for="t2">2</label>
+            <label for="t3">3</label>
+          </div>
+          <div id="radioT">
+            <button id="themBtn1" onclick="theme1()"></button>
+            <button id="themBtn2" onclick="theme2()"></button>
+            <button id="themBtn3" onclick="theme3()"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="screen">
+      <input id= "res" type = "text" disabled>
+    </div>
+    <div id="inputBtn">
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button id="del"><b>DEL</b></button>
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="ops" value="+">+</button>
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+        <button class="ops" value="-">-</button>
+        <button class="digit">.</button>
+        <button class="digit">0</button>
+        <button class="ops" value="/">/</button>
+        <button class="ops" value="*">&times</button>
+        <button id="reset">RESET</button>
+        <button id="equl">=</button>
+    </div>
+  </div>
+</body>
+<script src="calculator.js"></script>
+<script src="calculatorTheme.js"></script>
+</html>
